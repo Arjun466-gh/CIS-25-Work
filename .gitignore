@@ -1,1 +1,9 @@
-/test/leapyear.exe
+*.exe
+*.out
+*.o
+/build/
+bin/
+*.log
+*.tmp
+*.swp
+.vscode/
