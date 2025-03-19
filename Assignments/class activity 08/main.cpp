@@ -9,7 +9,7 @@ int main() {
     cout << "Enter Customer ID: ";
     cin >> c.id;
 
-    cin.ignore(); // Clear newline for getline
+    cin.ignore();
     cout << "Enter Customer Name: ";
     getline(cin, c.name);
 
@@ -25,6 +25,9 @@ int main() {
 
     cout << "Enter Zip Code: ";
     cin >> c.address.zipCode;
+
+    // Display collected info
+    c.displayInfo();
 
     return 0;
 }
